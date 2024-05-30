@@ -1,14 +1,14 @@
 .container {
   position: relative;
   width: 100%;
-  max-width: 1000px;
-  min-height: 1000px;
+  max-width: 2000px;
+  min-height: 2000px;
   margin: 50px;
   display: grid;
   padding: 30px;
 }
 body {
-  background-color: #ffffff;
+  background-color: #000000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,4 +39,11 @@ img.rounded-circle {
   position: relative;
   background-color: #ebc9bb;
   padding: 50px;
+}
+
+.alargar-imagen {
+  width: 200%;  /* Ajusta el ancho según sea necesario */
+  height: 500px;  /* Ajusta la altura */
+  object-fit: cover;  /* Mantiene la proporción */
+
 }
